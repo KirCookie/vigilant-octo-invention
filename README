@@ -1,0 +1,2 @@
+1. Add token to env_vars
+2. docker-compose up --build

@@ -3,4 +3,6 @@ version: '3.7'
 services:
   bot:
     container_name: caller_bot
+    env_file:
+      - env_vars
     build: ./bot
